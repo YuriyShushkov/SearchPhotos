@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/web/bin/Debug/net7.0
+/.vs/SearchPhotos/FileContentIndex
+/.vs/SearchPhotos/v17
+/web/obj/Debug/net7.0
+/web/obj/Release/net7.0
+/web/obj
+/worker/bin/Debug/net7.0
+/worker/obj/Debug/net7.0
+/worker/obj/Release/net7.0
+/worker/obj
+/.vs
+*.user
