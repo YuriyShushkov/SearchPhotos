@@ -20,8 +20,8 @@ public class SearchFileController : ControllerBase
         opts.Url = NatsServer;
 
         var c = cf.CreateConnection(opts);
-
-        c.Publish("worker", Encoding.UTF8.GetBytes($"hello, world: {value}"));
+        
+        c.Publish("directories", Encoding.UTF8.GetBytes(value));
         c.Close();
         return Ok();
     }
